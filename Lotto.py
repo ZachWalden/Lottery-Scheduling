@@ -1,18 +1,6 @@
 # Zach Walden
 # w989j327
-################### Lottery Scheduling ###################
-
-### Features: ###
-"""
-# Process class that throws an error for non-unique PIDs,
-starting with 0 tickets until assigned.
-
-# Scheduler class that handles scheduling of the lottery. 
-Including adding processes, allocating a given amount of tickets,
-and choose the winning process.
-- Random number generator is used to choose the winning ticket number.
-
-"""
+# Lottery Scheduling, Assignment #2
 
 import random
 
@@ -90,7 +78,8 @@ Lotto = LottoScheduler()
 Lotto.add_process([Process(1), Process(2), Process(3), Process(4), Process(5)])
 
 # Allocate tickets to each process in lotto.
-# Process one, the first list item will be more likely than
+# Process one, the first list item has 50 tickets
+# and will be more likely than
 # the other processes to be picked.
 
 # Process = list position + 1

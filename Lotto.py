@@ -79,8 +79,8 @@ Lotto.add_process([Process(1), Process(2), Process(3), Process(4), Process(5)])
 
 # Allocate tickets to each process in lotto.
 # Process one, the first list item has 50 tickets
-# and will be more likely than
-# the other processes to be picked.
+# and will be more likely than the 
+# other processes to be picked.
 
 # Process = list position + 1
 Lotto.allocate_tickets(Lotto.processes[0], 50)  # < 50
